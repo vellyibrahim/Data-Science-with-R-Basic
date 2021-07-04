@@ -1,0 +1,64 @@
+#Introduction R Studio For Data Scienties
+#Nomer 1
+
+9
+"Budi"
+9*3
+print("Hello World")
+print(3+4)
+c(10:40)
+budi_berat_kg <-68
+santi_berat_kg <-89
+budi_berat_kg
+umur_balita <- c(8:15)
+umur_balita
+
+#Vector R
+c(5:10,11,15,20,20:30)
+itung_angka_vektor <-c(1:10,11,13,20,21:30)
+itung_angka_vektor
+
+"Hello WOrld"
+1+5
+jam <-c(6) 
+print ("Hello WOrld")
+angka_satu <-c(1:10)
+print(angka_satu)
+nama_mahasiswa <-c("Namira","aldo","Celine")
+print(nama_mahasiswa)
+
+#Index dan Accessor pada Vector
+angka <- c(20:30)
+print(angka)
+
+# Tampilkan isi variable angka pada posisi ke 3
+print(angka[3])
+
+# Tampilkan isi variable angka pada posisi ke 5 gunakan kurung siku ganda
+print(angka[[5]])
+
+# Tampilkan isi variable angka pada posisi ke 4 s/d 6
+print(angka[4:6])
+
+# Buat vector teks dengan nama kode_prodi yang diisi sesuai petunjuk soal
+kode_prodi <-c("DKV","ILKOM","ICT")
+
+# Tampilkan isi indeks ketiga dari kode_prodi
+print(kode_prodi[3])
+
+#Named Vector
+
+#Membuat named vector dengan nama nilai
+nilai <- c(statistik = 89, fisika = 95, ilmukomunikasi = 100)
+
+#Menampilkan isi variable nilai
+print(nilai)
+
+#Menampilkan isi dengan nama fisika
+print(nilai["fisika"])
+
+#Buat variable profil sesuai permintaan soal
+profil <-c(nama = "budi", tempat_tinggal= "Jakarta", tingkat_pendidikan ="S1")
+#Tampilkan variable profil
+print(profil)
+
