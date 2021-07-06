@@ -1,1 +1,29 @@
+Data Wrangling
+
+Data wrangling adalah proses membaca data dari berbagai sumber dan merubah isi dan struktur sehingga dapat digunakan untuk analisa.
+
+Data cleansing biasanya melibatkan isi yang perlu diubah karena kadang data dimasukkan dari sistem yang berbeda.Bertolak belakang dengan anggapan bahwa dengan sistem, data akan bersih dan standar. Pada kenyataannya, bisnis berkembang lebih cepat dibandingkan dengan pembuatan sistem sehingga banyak design dirubah di tengah jalan untuk mengakomodir hal ini, dan isi menjadi "berantakan". Penyebab utama lainnya tentunya adalah sistem entri data yang manual.
+
+Contoh yang paling sering adalah informasi pelanggan (customer). Di satu sistem namanya boleh memasukkan gelar, dan di satu sistem tidak boleh… jadinya ada dua nama yang serupa tapi tak sama sebagai berikut: "Agus Cahyono S.Kom." dan "Cahyono, Agus".
+
+Struktur perlu dirubah karena berbagai alasan, salah satu yang paling penting adalah tiap algoritma mensyaratkan struktur data yang berbeda dan optimal.
+
+Sebagai contoh: transaksi penjualan untuk satu algoritma bisa menggunakan row-based transaction. Sedangkan algoritma lain harus menggunakan sparse-matrix.
+
+Dalam perjalanan Anda sebagai data scientist ataupun data engineer, pasti akan menghadapi kolom dengan sebagian data tidak terisi atau kosong. Ini disebut dengan missing value atau nilai yang hilang.
+
+Menyadari hal ini adalah satu tahap penting karena kita akan sadar bahwa hal tersebut adalah lumrah terjadi.
+
+Tahap selanjutnya, kita perlu dua hal:
+
+Bagaimana missing value direpresentasikan, ini penting sehingga kita bisa identifikasi apakah nilai hilang karena dari awal memang ga ada, apakah karena operasi matematika, dan lain-lain.
+Dengan mengetahui representasi ini, kita dapat melakukan sesuatu terhadapnya. Atau singkat dapat dikelola (manage) dengan baik.
+Kedua hal tersebut sangat penting terutama bagi Anda yang berangkat dari SQL ataupun bahasa programming lain, dimana ada satu reprentasi missing value saja, yaitu NULL.
+
+Sepanjang bab ini kita akan membahas representasi yang bisa dianggap missing value yaitu NA, NULL dan NaN. Dan bagaimana kita melakukan banyak hal dengan missing value ini.
+
+Klik tombol Next untuk melanjutkan.
+
+
+
 
